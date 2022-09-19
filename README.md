@@ -1,0 +1,1 @@
+This set of scripts extracts genotypes at loci where SNPs were identified in a VCF file to a matrix of genotypes. This output file of genotypes is then edited for format using sed/awk/grep, and transposed using a python script. All arguments from the bash command are passed to the python script.
